@@ -5,3 +5,9 @@ A tool that converts all your images in a folder into a spritesheet and generate
 USE VERSION 6 this commad in CLI
 
 ```python3 spritesheet_tool6.py . --quality 55 --padding 1 --trim --output hero_atlas```
+
+
+MacOs UI setup: 
+
+```pip install pyinstaller pillow```
+```pyinstaller --noconsole --onefile --windowed --name "SpriteSheetPacker" SpritesheetMakerMacOs.py```
